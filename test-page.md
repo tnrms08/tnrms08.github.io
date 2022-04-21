@@ -1,29 +1,25 @@
 ---
-title: Test Page
+title: Information
 layout: page
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
-
-[This is a link](#)
-
-> This is a blockquote
-
-`This is code`
-
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
-
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+## 사용 언어
+1. HTML
+2. CSS
+3. C
+4. JAVA
+### 공부 중이거나 할 예정인 언어
+- JavaScript
+- Solidity
+---
+## 스터디
+- 자료구조
+- JAVA
+---
+## 수상 내역
+- 2021 WISET-SGRG 은상
+---
+## 기타 활동
+1. 제주지역 사이버보안 인재 양성 교육(2021)
+2. WISET J-Leaders(2022)
+---
