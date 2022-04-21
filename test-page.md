@@ -3,7 +3,7 @@ title: Information
 layout: page
 ---
 
-## 사용 언어
+## 사용 가능 언어
 1. HTML
 2. CSS
 3. C
