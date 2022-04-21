@@ -4,20 +4,20 @@ layout: page
 ---
 
 ### 사용 가능 언어
-HTML
-CSS
-C
+HTML  
+CSS  
+C  
 JAVA
 
 ***
 ### 공부 중이거나 할 예정인 언어
-JavaScript
+JavaScript  
 Solidity
 
 ***
 
 ### 스터디
-자료구조
+자료구조  
 JAVA
 
 ***
