@@ -10,9 +10,12 @@ tags:
 
 # 문제 설명
 정수 배열 numbers가 주어집니다. numbers에서 서로 다른 인덱스에 있는 두 개의 수를 뽑아 더해서 만들 수 있는 모든 수를 배열에 오름차순으로 담아 return 하도록 solution 함수를 완성해주세요.
+
 ## 제한 사항
 - numbers의 길이는 2 이상 100 이하입니다.
 - numbers의 모든 수는 0 이상 100 이하입니다.
+
+<br>
 ## 입출력 예
 
 |numbers	|result|
@@ -30,8 +33,10 @@ tags:
 - 6 = 2 + 4 입니다.
 - 7 = 3 + 4 입니다.
 - 따라서 [2,3,4,5,6,7] 을 return 해야 합니다.
-********************
+
+
 # 코드
+
 ```java
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -61,11 +66,16 @@ class Solution {
     }
 }
 ```
-아래에 작성한 ArrayList관련 함수를 보고나면 위에 코드가 이해될 것이다.
-# 관련 정보
-### ArrayList
-동적배열을 구현하기 위해 사용한다.
 
+
+아래에 작성한 ArrayList관련 함수를 보고나면 위에 코드가 이해될 것이다.    
+<br>
+
+# 관련 정보
+
+### ArrayList
+동적배열을 구현하기 위해 사용한다.   
+<br>
 
 #### 관련 함수
 ```java
@@ -101,8 +111,10 @@ list.contains(3);
 //list에서 값(3)이 있는지 확인하고 index값 반환(없으면 -1 반환)
 list.indexOf(3);
 ```
+
+<br>
 #### 참고 사이트
-https://crazykim2.tistory.com/558
+<https://crazykim2.tistory.com/558>
 
 ### Arrays.sort()
 
@@ -120,5 +132,7 @@ Arrays.sort(arr);
 //arr를 내림차순 정렬
 Arrays.sort(arr, Collections.reverseOrder());
 ```
+
+<br>
 #### 참고 사이트
 <https://coding-factory.tistory.com/549>

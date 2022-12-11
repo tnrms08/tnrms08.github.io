@@ -1,5 +1,5 @@
 ---
-title: 수박수박수박수박수박수?
+title: 문자열 내 p와 y의 개수
 layout: post
 post-image: "https://velog.velcdn.com/images/codemcd/post/131a0a54-437c-4acf-ba01-c8798c0b7628/Java_Logo.png"
 description: 프로그래머스 문제의 풀이와 풀며 중요하고 몰랐던 내용들을 정리하였다.
@@ -26,7 +26,9 @@ tags:
 'p'의 개수 2개, 'y'의 개수 2개로 같으므로 true를 return 합니다.
 - 입출력 예 #2
 'p'의 개수 1개, 'y'의 개수 2개로 다르므로 false를 return 합니다.
+
 -----------------
+
 ## 풀이 코드
 ```java
 class Solution {
@@ -51,16 +53,20 @@ class Solution {
     }
 }
 ```
+
 ### 다른 사람의 풀이
 
 다른 사람들의 풀이를 살펴보니 나처럼 소문자일 경우와 대문자일 경우를 나눠서 if문을 사용하지 않고, 주어진 문장을 모두 소문자나 대문자로 변경하여 if문을 사용하였다.
 > #### toLowerCase();
 - 모두 소문자로 변경
+
 ```java
 s=s.toLowerCase();
 ```
+
 #### toUpperCase();
 - 모두 대문자로 변경
+
 ```java
 s=s.toUpperCase();
 ```
@@ -80,6 +86,9 @@ char[] charArr = s.toCharArray();
 String s = "test string";
 char test = s.charAt(6);	//test = 't'; (char)
 ```
+
+<br>
+
 #### String.valueOf();
 위에서 CharAt()을 이용하여 char 형태로 받아온 값을 다시 String 형태로 변경하는 것이다.
 ```java
