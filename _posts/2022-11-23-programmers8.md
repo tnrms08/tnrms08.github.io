@@ -1,7 +1,7 @@
 ---
 title: x만큼 간격이 있는 n개의 숫자
 layout: post
-post-image: "https://velog.velcdn.com/images/codemcd/post/131a0a54-437c-4acf-ba01-c8798c0b7628/Java_Logo.png"
+post-image: "https://images.velog.io/images/mickeymouse/post/0cf235fb-bb11-45aa-905c-a9008b8ee5eb/logo.jpg"
 description: 프로그래머스 문제의 풀이와 풀며 중요하고 몰랐던 내용들을 정리하였다.
 tags:
 - programmers
