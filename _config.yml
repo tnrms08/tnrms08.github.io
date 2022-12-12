@@ -8,10 +8,10 @@ baseurl:
 
 # Title of the Site(사이트 이름)
 #title: Who am I?
-title: 기술블로그
+title: 김미숙의 블로그
 # Description of the Site
 description: 제주대학교 컴퓨터공학전공 2020108249 김미숙
-description2: 혼자 공부하면서 새롭게 깨달은 내용이나 중요하다고 생각되는 내용들을 작성해놓았습니다.
+description2: 혼자 공부한 내용과 저에대한 내용들을 작성해놓았습니다.
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -47,11 +47,11 @@ disqus-shortname: tnrms08
 # URL for the Image of the Author
 author-image: https://t1.daumcdn.net/cfile/tistory/995E4C4A5C98CB8839
 # 60 Words About the Author
-# author-about: 아직 경험이 많이 없지만 블록체인과 보안에 관심이 있으며 보다 더 많은 경험을 하고 지식을 쌓는 것을 목표로 하고 있습니다.
-#  HTML, CSS, C, JAVA를 사용할 수 있습니다.
+author-about: 아직 경험이 많이 없지만 블록체인과 보안에 관심이 있으며 보다 더 많은 경험을 하고 지식을 쌓는 것을 목표로 하고 있습니다.
+HTML, CSS, C, JAVA를 사용할 수 있습니다.
 # author-about : 혼자 공부하면서 새롭게 깨달은 내용이나 중요하다고 생각되는 내용들을 작성해놓았습니다.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-# author-url: https://github.com/tnrms08
+author-url: https://github.com/tnrms08
 
 # SASS
 sass:
@@ -86,7 +86,16 @@ defaults:
       type: 'pages'
     values:
       layout: page
-
+  -
+    scope:
+      type: 'posts2'
+    values:
+      layout: post2
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
 # Exclude
 exclude:
   - .sass-cache/
