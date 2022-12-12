@@ -86,16 +86,7 @@ defaults:
       type: 'pages'
     values:
       layout: page
-  -
-    scope:
-      type: 'posts2'
-    values:
-      layout: post2
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
+
 # Exclude
 exclude:
   - .sass-cache/
